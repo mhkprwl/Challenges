@@ -1,9 +1,9 @@
 #Authentication
-tenant_id       = "7d64ac83-6c0c-4d7e-8f16-301f23062ebf"
-subscription_id = "ea19577d-ae3c-4081-be3c-42ed78190083"
-client_id       = "9704b345-a50f-4f1f-94a5-44ca2d0dbcae"
-client_secret   = "nXguYzy5A._X96N54K.3owqJq0~UUAjtQL"
-object_id       = "9034ba49-d4af-4e89-8889-3d7db26d5f3b"
+tenant_id       = "****"
+subscription_id = "****"
+client_id       = "****"
+client_secret   = "****"
+object_id       = "****"
 #########
 rgname          = "poc-eastus2-rg-01"
 location        = "eastus2"
