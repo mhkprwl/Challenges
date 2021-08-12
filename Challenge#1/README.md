@@ -1,6 +1,6 @@
 # Challenge-1
 
-### 3 Tier Architecture Creation
+### 3 Tier Architecture
 
 ![image](https://user-images.githubusercontent.com/47051115/129131072-905b9d81-2bf0-4de5-885d-19bf2d872d72.png)
 
