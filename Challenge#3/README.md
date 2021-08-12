@@ -1,35 +1,12 @@
 ## Fetching value from Nested Object
 
-### Used jq to accomplish the same
+### We can use JavaScript to accomplish this task
 
-![Capture](https://user-images.githubusercontent.com/47051115/129139370-de8923fa-17d1-4616-8604-eee35dd40c26.JPG)
+     First we take the JSON string and then parse it in JavaScript
+     
+![Capture2](https://user-images.githubusercontent.com/47051115/129161499-d0cb7d99-5961-47e4-babb-14e8f5eccfc2.JPG)
 
-### Text Output of command
-     adminuser@poc-eastus2-web-vm-01:~$ cat simple.json
-      { "Name":
-          {
-            "lastname": "Porwal",
-            "firstname": "Mahak"
-          },
-      "Qualifications": "BE",
-      "CurrentCompany":
-      {
-            "name": "Dataglove",
-            "designation": "Associate-Consultant"
-      },
-      "title": "Test JSON",
-      "category": ["Non-Fiction", "Technology"]
-      }
-      adminuser@poc-eastus2-web-vm-01:~$ cat simple.json | jq --raw-output -r '.Name.firstname'
-      Mahak
-      adminuser@poc-eastus2-web-vm-01:~$ cat simple.json | jq --raw-output -r '.CurrentCompany.designation'
-      Associate-Consultant
-      adminuser@poc-eastus2-web-vm-01:~$ cat simple.json | jq --raw-output -r '.category'
-      [
-        "Non-Fiction",
-        "Technology"
-      ]
-      adminuser@poc-eastus2-web-vm-01:~$ cat simple.json | jq --raw-output -r '.category[0]'
-      Non-Fiction
-      adminuser@poc-eastus2-web-vm-01:~$ date
-      Wed Aug 11 20:02:42 UTC 2021
+![image](https://user-images.githubusercontent.com/47051115/129161611-ab3bf310-6e04-4889-a881-03ff9ee94a19.png)
+
+![image](https://user-images.githubusercontent.com/47051115/129161996-b2db51b8-4062-4d92-be97-003c6e039e26.png)
+
