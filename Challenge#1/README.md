@@ -25,7 +25,7 @@
       5. Web VM and App VM are placed in seperate Subnets and only particular ports would be allowed.
       6. No communication between Web VM and MySQL DB PaaS
       
-#### Additional Security which could be followed
+#### Additional Security which could be followed:-
       1. Use of Private Endpoints and Private link services to connect to Resources.
          For instance :-
                 a. Instead of using Public Load Balancer, we could have used internal load balancer and exposed its services using Private Link Services.
